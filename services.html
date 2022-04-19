@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>About Page</title>
+    <link href="styleServices.css" rel="stylesheet">
+     <!-- Add icon library -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!--swiper js-->
+     <link
+  rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+
+  </head>
+  <body>
+      <nav>
+          <h2 class="logo">What we offer</h2>
+          <div class="menu-list">
+              <a href="index.html">Home</a>
+              <a href="#collection">Collection</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="community.html">Community</a>
+          </div>
+     
+    
+    </nav>
+
+    <!--header-->
+    <header id="Home">
+     <div class="swiper mySwiper">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/cover5.png">
+                <div class="swiper-desc">
+                <h1>Chose your chill</h1>
+                <p>We all learn & take in information differently. When it comes to 
+                    proper relaxation of our minds, it is no different. Here is a 
+                    range of personalized notebooks for your particular study style. 
+                    <br>Sign in monthly for newly added items based on your previous month's data!<br>
+                </p>
+                <button class="swiper-btn">Check Now</button>
+               </div>
+            </div>
+                <div class="swiper-slide">
+                    <img src="images/cover6.png" height="80px">
+                    <div class="swiper-desc desc2">
+                        <h1>Check how <br> Others are doing it<br></h1>
+                        <p>Take a look at what others are doing with their notebooks! Just like
+                            a personal portfolio, your work should get the recognition is deserves. 
+                            Share it with us on our Discord server under "Community" so we can be apart 
+                            of your progress too!
+                        </p>
+                        <button class="swiper-btn">Join Us</button>
+                    </div>
+                </div>
+         </div>
+         
+             <div class="swiper-pagination"></div>
+    </div>
+ 
+    </header>
+    <!--Guarantee-->
+    <section class="guarantee">
+        <div class="guarantee-wrapper">
+            <div class="guarantee-card">
+                
+                <div class="guarantee-text">
+                    <h3>Free Shipping</h3>
+                    <p>Free shipping worldwide just for you. What are you waiting for?</p>
+                </div>
+            </div>
+            <div class="guarantee-card">
+              
+                <div class="guarantee-text">
+                <h3>30-Day Returns</h3>
+                <p>If you do not like a particular notebook, you have 30 days to return it</p>
+            </div>
+        </div>
+        <div class="guarantee-card">
+          
+            <div class="guarantee-text">
+                <h3>100% Money Refund</h3>
+                <p>We sell only original products & will
+                    take back an item in new condition anytime with your refund in total. 
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--collection-->
+    <section class="collection" id="collection">
+      <h1 class="heading-title">Discover The Collection</h1>
+      <div class="collection-wrapper">
+          <!--Left side-->
+          <div class="collection-left">
+              <div class="collection-card">
+                  <img src="images/book1.jpg">
+                  <div class="collection-detail">
+                      <h2>Colour Me</h2>
+                      <span><i class="fas fa-long-arrow-alt-right">Chose me</i></span>
+                  </div>
+              </div>
+          </div>
+          <!--right side-->
+          <div class="collection-right">
+              <div class="collection-card">
+                  <img src="images/book2.jpg">
+                  <div class="collection-detail">
+                      <h2>Riddle Me</h2>
+                      <span><i class="fas fa-long-arrow-alt-right">Chose me</i></span>
+                  </div>
+              </div>
+              <div class="collection-card">
+                  <img src="images/book3.jpg">
+                  <div class="collection-detail">
+                      <h2>Name Me</h2>
+                      <span><i class="fas fa-long-arrow-alt-right">Chose me</i></span>
+                  </div>
+              </div>
+              <div class="collection-card">
+                <img src="images/book4.jpg">
+                <div class="collection-detail">
+                    <h2>Seek Me</h2>
+                    <span><i class="fas fa-long-arrow-alt-right">Chose me</i></span>
+                </div>
+            </div>
+          </div>
+      </div>
+        
+    </section>
+
+<!--product
+<section class="portfolio" id="portfolio">
+   <h1 class="heading-title">See what others are creating!</h1>
+   <!--filter button
+   <div class="filter-group" id="filter">
+       <button class="portfolio-filter is-checked" data-filter ="*">All Product</button>
+       <button class="portfolio-filter" data-filter =".new">New Arrivals</button>
+       <button class="portfolio-filter" data-filter =".fave">Faves</button>
+       <button class="portfolio-filter" data-filter =".promo">Promo</button>
+   </div>
+   <!--portfolio content list
+   <div class="product-wrapper">
+       <div class="product-card new">
+           <div class="product-label label-red">New</div>
+           <img class="product-image" src="images/book1.jpg">
+           <div class="product-detail">
+               <h4>Your Classic Leather Bound Notebook<i class="far fa-heart"></i></h4>
+               <span>$20.00</span>
+           </div>
+           <button class="product-button">Add to cart</button>
+       </div>
+       <div class="product-card fave">
+        <div class="product-label label-red">Faves</div>
+        <img class="product-image" src="images/book2.jpg">
+        <div class="product-detail">
+            <h4>Cyan Dyed Leather Bound<i class="far fa-heart"></i></h4>
+            <span>$20.00</span>
+        </div>
+        <button class="product-button">Add to cart</button>
+       </div>
+   </div>
+</section>
+-->
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
